@@ -8,13 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, KeyViewDelegate {
+    
+    @IBOutlet weak var keyArea: UIView!
+    @IBOutlet weak var label: UILabel!
+    
+    func onKeyTap(n: Int) {
+        label.text = "key:\(n) tapped"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let keyview = KeyView(frame: keyArea.frame)
+        keyview.keyViewDelegate = self
+        view.addSubview(keyview)
     }
-
-
 }
-
