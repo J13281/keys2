@@ -25,3 +25,15 @@ class ViewController: UIViewController, KeyViewDelegate {
         view.addSubview(keyview)
     }
 }
+
+class ScoreViewController: UIViewController {
+    
+    @IBOutlet weak var scoreArea: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let score = ScoreView(frame: scoreArea.frame)
+        view.addSubview(score)
+    }
+}
