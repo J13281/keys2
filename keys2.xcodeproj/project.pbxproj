@@ -15,6 +15,7 @@
 		0AC4DC812365E71A00BBE05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4DC7F2365E71A00BBE05D /* LaunchScreen.storyboard */; };
 		0AC4DC8B2365E78900BBE05D /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4DC8A2365E78900BBE05D /* KeyView.swift */; };
 		0AFB839D236730A0000BD039 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB839C236730A0000BD039 /* ScoreView.swift */; };
+		0AFD90FB2368281400AE7215 /* score15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFD90FA2368281400AE7215 /* score15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0AC4DC822365E71A00BBE05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC4DC8A2365E78900BBE05D /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		0AFB839C236730A0000BD039 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		0AFD90FA2368281400AE7215 /* score15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score15.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		0AC4DC732365E71900BBE05D /* keys2 */ = {
 			isa = PBXGroup;
 			children = (
+				0AFD90F92368281400AE7215 /* scores */,
 				0AC4DC742365E71900BBE05D /* AppDelegate.swift */,
 				0AC4DC762365E71900BBE05D /* SceneDelegate.swift */,
 				0AC4DC782365E71900BBE05D /* ViewController.swift */,
@@ -71,6 +74,14 @@
 				0AC4DC8A2365E78900BBE05D /* KeyView.swift */,
 			);
 			path = keys2;
+			sourceTree = "<group>";
+		};
+		0AFD90F92368281400AE7215 /* scores */ = {
+			isa = PBXGroup;
+			children = (
+				0AFD90FA2368281400AE7215 /* score15.png */,
+			);
+			path = scores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFD90FB2368281400AE7215 /* score15.png in Resources */,
 				0AC4DC812365E71A00BBE05D /* LaunchScreen.storyboard in Resources */,
 				0AC4DC7E2365E71A00BBE05D /* Assets.xcassets in Resources */,
 				0AC4DC7C2365E71900BBE05D /* Main.storyboard in Resources */,
