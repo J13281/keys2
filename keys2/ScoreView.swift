@@ -31,8 +31,10 @@ class ScoreView: UIView {
     }
     
     func score(n: Int) -> UIView {
-        let v = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 200))
-        v.backgroundColor = .red
+        let v = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 200))
+        let num = String(format: "%02d", n)
+        let image = UIImage(named: "score\(num)")
+        v.image = image
         return v
     }
     
